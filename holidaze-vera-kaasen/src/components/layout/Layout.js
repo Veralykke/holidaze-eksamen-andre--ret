@@ -4,15 +4,13 @@ import Nav from "react-bootstrap/Nav";
 
 function Layout() {
 	return (
-		<Navbar bg="dark" variant="dark" expand="lg">
+		<Navbar bg="light" variant="light" expand="lg">
 			<Navbar.Brand href="/">Holidaze</Navbar.Brand>
 			<Navbar.Toggle aria-controls="basic-navbar-nav" />
 			<Navbar.Collapse id="basic-navbar-nav">
 				<Nav className="mr-auto">
 					<Nav.Link href="/">Home</Nav.Link>
-					<Nav.Link href="/about/">Hotels</Nav.Link>
-					<Nav.Link href="/contact/">Contact</Nav.Link>
-                    <Nav.Link href="/contact/">Admin</Nav.Link>
+					<Nav.Link href="/hotels/">Hotels</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
